@@ -1,0 +1,8 @@
+[25-Mar-2020 09:08:37 Australia/Melbourne] PHP Fatal error:  [InvalidArgumentException] Invalid stream reference provided
+#0 /home/oy9ivi1fcb2r/public_html/vendor/zendframework/zend-diactoros/src/Stream.php(58): Zend\Diactoros\Stream->setStream('/tmp/phpV1AnLi', 'r')
+#1 /home/oy9ivi1fcb2r/public_html/vendor/zendframework/zend-diactoros/src/UploadedFile.php(164): Zend\Diactoros\Stream->__construct('/tmp/phpV1AnLi')
+#2 /home/oy9ivi1fcb2r/public_html/vendor/cakephp/cakephp/src/Http/ServerRequest.php(467): Zend\Diactoros\UploadedFile->getStream()
+#3 /home/oy9ivi1fcb2r/public_html/vendor/cakephp/cakephp/src/Http/ServerRequest.php(368): Cake\Http\ServerRequest->_processFiles(Array, Array)
+#4 /home/oy9ivi1fcb2r/public_html/vendor/cakephp/cakephp/src/Http/ServerRequest.php(307): Cake\Http\ServerRequest->_setConfig(Array)
+#5 /home/oy9ivi1fcb2r/public_html/vendor/cakephp/cakephp/src/Http/ServerRequestFactory.php(56): Cake\Http\ServerRequest->__construct(Array)
+#6 /home/oy9ivi1fcb2r/public_html/vendor/cakephp/cakephp/src/Error/ExceptionRenderer.php(133): Cake\Http\ServerRequestFa in /home/oy9ivi1fcb2r/public_html/vendor/cakephp/cakephp/src/Error/ErrorHandler.php on line 180

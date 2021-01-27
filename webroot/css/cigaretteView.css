@@ -1,0 +1,43 @@
+.cigaretteForm {
+    margin: 2.5%;
+}
+
+#cigaretteTable {
+    margin: auto;
+    text-align: center;
+    padding: 5%;
+}
+
+#editTable {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 5%;
+}
+
+.createLinks {
+    color: white;
+}
+.createLinks:hover {
+    color: lightgrey;
+}
+
+.stock.table td{
+    vertical-align: middle;
+}
+
+.stockQuantity{
+    text-align: center;
+    width: 3vw;
+    margin-left: 5px;
+}
+
+.stockQuantitySpan{
+    font-size: larger;
+    margin-right: 5px;
+}
+
+.changed{
+    font-weight: bold;
+    background: lightgoldenrodyellow;
+}

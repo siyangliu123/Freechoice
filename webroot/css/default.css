@@ -1,0 +1,171 @@
+div {
+    text-align: center;
+}
+
+body, html {
+    margin: auto;
+    text-align: center;
+    height: 100%;
+}
+
+.grid-container {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    background: #ededed;
+}
+
+.grid1 {
+    margin: auto;
+    display: table;
+    grid-column: 1 / 2;
+}
+
+.grid2 {
+    margin: auto;
+    display: table;
+    grid-column: 2 / 3;
+}
+
+.grid3 {
+    margin: auto;
+    display: table;
+    grid-column: 3 / 4;
+}
+
+.grid4 {
+    margin: auto;
+    display: table;
+    grid-column: 4 / 5;
+}
+
+.grid5 {
+    margin: auto;
+    display: table;
+    grid-column: 5 / 6;
+}
+
+.topNav {
+    position: fixed;
+    height: 100px;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 100;
+}
+
+#container {
+    margin: auto;
+    position: relative;
+    top: 100px;
+    width: 100%;
+    text-align: center;
+    background: white;
+    height: 80%;
+    background-position: center;
+    background-size: cover;
+}
+
+.logoImage {
+    margin: auto;
+    height: 100px;
+    padding: 1%
+}
+
+.smallLogoImage {
+    height: 50px;
+}
+
+.centerImage {
+    text-align: center;
+    margin: auto;
+    width: 30vw;
+    padding: 2%;
+}
+
+#container2 {
+    margin: auto;
+    position: relative;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background: white;
+    background-position: center;
+    background-size: cover;
+}
+
+#scrollTop {
+    position: fixed;
+    bottom: 125px;
+    right: 0;
+    z-index: 100;
+}
+
+#scrollTopImg {
+    width: 50px;
+    height: 50px;
+    transform: rotate(180deg);
+}
+
+#scrollDown {
+    position: fixed;
+    bottom: 75px;
+    right: 0;
+    z-index: 100;
+}
+
+#scrollDownImg {
+    width: 50px;
+    height: 50px;
+}
+
+.scrolled{
+    top: 50px;
+}
+
+.shopImage{
+    width: 15vw;
+    z-index: 0;
+    opacity: 100% ;
+    margin: 1%;
+}
+
+#shopImage1{
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+#shopImage2{
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+#shopImage3{
+    position: fixed;
+    left: 0;
+    bottom: 10vh;
+}
+
+#shopImage4{
+    position: fixed;
+    right: 0;
+    bottom: 10vh;
+}
+
+div .error{
+    background-color: red;
+    border: 1px solid;
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+div .success{
+    background-color: forestgreen;
+    border: 1px solid;
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+}

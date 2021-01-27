@@ -1,0 +1,24 @@
+.announcementForm {
+    margin: 2.5%;
+}
+
+#announcementTable {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 5%;
+}
+
+#announcement-title{
+    float: left;
+    margin-left: 10%;
+    width: 80%;
+}
+
+
+.createLinksLinks {
+    color: white;
+}
+.createLinks:hover {
+    color: lightgrey;
+}

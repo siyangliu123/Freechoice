@@ -1,0 +1,116 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {}
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    outline: none;
+}
+
+a,
+a:active,
+a:focus {
+    color: #333;
+    text-decoration: none;
+    transition-timing-function: ease-in-out;
+    -ms-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    transition-duration: .2s;
+    -ms-transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+    -o-transition-duration: .2s;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.red-btn {
+    background: #ed1b24;
+    border: 2px solid #ed1b24;
+    color: #fff;
+}
+
+.red-btn:hover{
+    background: #1c376c;
+    color: #fff;
+    border-color: #ffffff;
+}
+
+/*---------footer---------*/
+footer {
+    background-color: #222023;
+    background-image: -webkit-linear-gradient( top, #222023, #1e2c47 );
+    background-image: -moz-linear-gradient( top, #222023, #1e2c47 );
+    background-image: -o-linear-gradient( top, #222023, #1e2c47 );
+    background-image: linear-gradient( to bottom, #222023, #1e2c47 );
+    color: #fff;
+    padding: 20px 0;
+    font-size: 17px;
+    z-index: 100;
+    position: absolute;
+    width: 100%;
+}
+footer h3 {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+footer h4 {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin-bottom: 2px;
+}
+.about-footer li i {
+    position: absolute;
+    left: 0;
+    top: 7.5px;
+}
+.about-footer li {
+    padding-left: 40px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.about-footer ul {
+    margin-top: 20px;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    color: #ed1b24;
+}
+.footer-title {
+    border-bottom: 2px solid #a61f2d;
+    padding-bottom: 25px;
+    margin-bottom: 35px;
+}
+
+.open-hour{
+    width: 100%;
+}
+.open-hour td{
+    padding: 1%;
+}
+
+
+
